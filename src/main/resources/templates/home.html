@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1>Welcome to the Home Page!</h1>
+<h2>Welcome, <span th:text="${username}"></span>!</h2>
+<p>You're logged in as: <span th:text="${#authentication.name}"></span></p>
+<p>Access token: <span th:text="${accessToken}"></span></p>
+</body>
+</html>
